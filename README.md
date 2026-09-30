@@ -1,12 +1,11 @@
-
 # AIDrugX
 
-**A deep learning framework for protein–small molecule binding site prediction.**
+**AIDrugX: Ligand-Conditioned Protein Binding-Site Prediction with Multi-View Fusion.**
 
 AIDrugX predicts, at single-residue resolution, whether each amino acid in a protein sequence is likely to contact a given small-molecule ligand. It fuses protein language model embeddings, 1D convolutional sequence features, ligand language model embeddings, and molecular graph representations via cross-modal attention, and produces a per-residue binding score that can be aggregated into a protein–ligand interaction score.
 
----
-<img width="2251" height="1023" alt="Snipaste_2026-09-30_15-48-12" src="https://github.com/user-attachments/assets/0ce72129-29b0-41d8-b5db-6f08a992b4d5" />
+<img width="2560" height="1440" alt="Snipaste_2026-09-30_16-05-39" src="https://github.com/user-attachments/assets/e21ca3de-3b19-4021-adbd-c04d356c6b0d" />
+
 
 
 
