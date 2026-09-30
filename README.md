@@ -4,7 +4,8 @@
 
 AIDrugX predicts, at single-residue resolution, whether each amino acid in a protein sequence is likely to contact a given small-molecule ligand. It fuses protein language model embeddings, 1D convolutional sequence features, ligand language model embeddings, and molecular graph representations via cross-modal attention, and produces a per-residue binding score that can be aggregated into a protein–ligand interaction score.
 
-<img width="2560" height="1440" alt="Snipaste_2026-09-30_16-05-39" src="https://github.com/user-attachments/assets/e21ca3de-3b19-4021-adbd-c04d356c6b0d" />
+<img width="2560" height="1440" alt="Snipaste_2026-09-30_17-09-38" src="https://github.com/user-attachments/assets/7fd286f0-55b4-42c5-aeaf-a8a52664cc93" />
+
 
 
 
