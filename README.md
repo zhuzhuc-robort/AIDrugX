@@ -106,7 +106,7 @@ AIDrugX/
 │   └── check_points/                         # ← download separately (see below)
 │       └── N-Step-Checkpoint_3_30000.ckpt
 └── examples/
-    └── input_example.csv                     # Demo input
+    └── coach420_input_simple.csv                     # Demo input
 ```
 
 ---
@@ -223,7 +223,7 @@ huggingface-cli download facebook/esm2_t33_650M_UR50D \
 conda activate AIDrugX
 
 # 2. Run the built-in demo
-python predict.py --input examples/input_example.csv --output predictions.csv
+python predict.py --input examples/coach420_input_simple.csv --output predictions.csv
 ```
 
 You should see progress logs for ESM-2 encoding, MolFormer encoding, and per-protein inference, followed by:
